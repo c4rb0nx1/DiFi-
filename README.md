@@ -5,7 +5,11 @@ A wifi password extraction script using python with discord(webhook) backed as a
 Linux:
 ```
 sudo apt-get update
+```
+```
 sudo apt-get install python3
+```
+```
 sudo apt install python3-pip
 ```
 Windows:
