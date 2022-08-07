@@ -1,7 +1,8 @@
 # DiscFi Grabber
-### Description 
+## Description 
 A wifi password extraction script using python with discord(webhook) backed as a credential carrier.
 
+### Commands:
 ```
 sudo apt-get update
 sudo apt-get install python3
